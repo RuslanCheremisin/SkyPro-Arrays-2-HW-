@@ -16,10 +16,9 @@ public class Main {
         return arr;
     }
     static void task123() {
-        final int [] monthSalary = generateRandomArray();
+        final int [] monthCost = generateRandomArray();
         int sum=0;
         double avrgCost=0;
-        final int[] monthCost = monthSalary;
         int minCost= monthCost[0];
         int maxCost= monthCost[0];
         for (int i = 0; i < monthCost.length-1; i++) {
